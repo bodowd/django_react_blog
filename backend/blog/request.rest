@@ -1,0 +1,9 @@
+POST http://localhost:8000/api/blog/category
+Content-Type: application/json
+
+{
+    "category": "ENVIRONMENT"
+}
+
+###
+GET http://localhost:8000/api/blog/
